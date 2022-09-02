@@ -27,7 +27,7 @@
     }
 
     .person{
-        width: 60%;
+        width: 800px;
         position: initial;
     }
 
@@ -39,6 +39,7 @@
         align-items: center;
         padding: 0;
         gap: 1rem;
+        text-align: center;
     }
 
     .header-description{
@@ -96,6 +97,10 @@
 }
 
 @media screen and (max-width: 960px) {
+
+    .person{
+        width: 600px;
+    }
 
     
     .content::before{
@@ -156,4 +161,28 @@
     }
 
 
+}
+
+@media screen and (max-width: 600px) {
+    .person{
+        width: 400px;
+    }
+
+    .details-card{
+        height: 400px;
+        width: 300px;
+    }
+
+    .projects-cards{
+        gap: 1rem;
+    }
+
+    .projects-card-img{
+        height: 300px;  
+        margin-bottom: 10px;
+    }
+
+    .projects img{
+        width: 350px;
+    }
 }

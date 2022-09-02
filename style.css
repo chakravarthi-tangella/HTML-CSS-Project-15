@@ -255,8 +255,8 @@ nav .fa-bars{
     height: 300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    gap: 5rem;
 }
 
 .info-heading{
